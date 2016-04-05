@@ -1,0 +1,9 @@
+enc_null
+auth_null
+mng_pluginscontrol
+P:/home/karimo/src/python/pydrone/hooktraffic.zip
+P:/home/karimo/src/python/pydrone/ftpserver.zip
+P:/home/karimo/src/python/pydrone/ftpserver.zip
+P:/home/karimo/src/python/pydrone/mod.zip
+P:/home/karimo/src/python/pydrone/mod.zip
+P:/home/karimo/src/python/pydrone/ftpserver.zip

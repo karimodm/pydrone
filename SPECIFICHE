@@ -1,0 +1,24 @@
+Buone regole di trasmissione:
+FINIRE LA TRASMISSIONE CON \r\n!!!!!!!!!!!!!!!!
+!!!!!!!!!!!
+Le informazioni generiche vanno mandate con formati arbitrari, ma risposte e conferme è preferibile usare send_ok e send_error
+!!!!!!!!!!!
+Nomi di funzioni, comandi, tipi di parametro ecc iniziarli con # per far capire che non è semplice testo ignorabile
+$nomeargomento#tipoargomento
+SPECIFICHE:
+tipi di dato:
+#ip 1.1.1.1
+#str stringa con doppie virgolette iniziali e finali *******************************************
+#int numero
+#port == int USARE INT
+#bool 1 o 0
+******************************
+Non testato comportamento della variabile condivisa common.plugins in caso di thread
+che sovrascrivono tale valore quando la variabile è già stata importata all'interno di
+altri plugin. Credo che la variabile, essendo condivisa, venga vista da tutti i thread
+contemporaneamente con lo stesso valore, anche se sovrascritta: DAVVERO CONDIVISA QUINDI.
+******************************
+REGOLE PER I PACCHETI:
+niente sottocartelle negli zip, possono vanificare il meccanismo di estrazione dei moduli
+dinamici o non rendere visibili dal path i moduli generici.
+***************
